@@ -1,0 +1,61 @@
+.product-list{
+  flex-direction: column;
+  flex-flow: wrap;
+  width: 100vw;
+}
+
+.product{
+  flex-direction: column;
+  height: 50vh;
+  width: 40vw;
+  margin: 20px;
+  background-color: #c1aed3;
+}
+
+.box-product{
+  flex-direction: column;
+}
+
+.description{
+  display: none;
+}
+
+img{
+  height: 40vh;
+  width: 35vw;
+  transition: ;
+}
+
+
+h1{
+  font-size: 30px;
+}
+
+.more{
+  height: 30px;
+  width: 30px;
+}
+
+#vector{
+    height: 40vh;
+    width: 25vw;
+    transition: ;
+}
+
+#vector:active
+
+button{
+  height: 10vh;
+  width: 15vw;
+  font-size: 30px;
+  background-color: #c88ba2;
+  transition: background-color .1s;
+}
+
+button:hover{
+  background-color: pink;
+}
+
+button:active{
+  background-color: green;
+}

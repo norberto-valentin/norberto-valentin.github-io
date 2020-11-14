@@ -1,0 +1,66 @@
+
+*{
+  display:flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+head{
+  display: none;
+}
+
+html,body{
+  margin:0px;
+}
+
+body{
+    background-color: #cccbd3;
+    flex-direction: column;
+}
+
+header{
+  background-color:#8775fd;
+  height: 15vh;
+  width: 100vw;
+  margin-top: 0;
+}
+
+.logo{
+  margin: 2.5vh;
+}
+
+#logo{
+  width: 18vh;
+  height: 15vh;
+}
+
+.title{
+  font-size: 100px;
+  font-family: cursive;
+}
+
+.cuenta{
+  height: 5vh;
+  width: 10vw;
+  background-color: purple;
+  color: black;
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* #ind{
+  height: 73vh;
+  width: 100vw;
+} */
+
+footer{
+  background-color:#8775fd;
+  height: 12vh;
+  width: 100vw;
+}

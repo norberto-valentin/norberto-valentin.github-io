@@ -1,0 +1,32 @@
+
+
+body{
+  background-color: #cccbd3;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  height: 73vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 20vw;
+  padding: 10px;
+  background-color: #a79bfa;
+  border-radius: 5px;
+}
+
+input{
+  height: 6vh;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  align-items: center;
+  height: 6vh;
+}
