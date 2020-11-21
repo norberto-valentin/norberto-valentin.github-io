@@ -1,0 +1,55 @@
+
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  height: 60vh;
+  width: 50vw;
+  background-color: green;
+  text-align: center;
+  font-size: 30px;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  height: 30vh;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: 10vh;
+  width: 20vh;
+  margin: 20px;
+}
+
+input{
+  height: 10vh;
+  width: 20vh;
+  margin: 20px;
+}
+
+@media (max-width: 640px){
+  section{
+    width: 70vw;
+  }
+
+  nav{
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  div{
+    height: 10vh;
+  }
+
+  input{
+    margin: 20px;
+  }
+}

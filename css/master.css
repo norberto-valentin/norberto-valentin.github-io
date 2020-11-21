@@ -54,11 +54,6 @@ a{
   color: black;
 }
 
-/* #ind{
-  height: 73vh;
-  width: 100vw;
-} */
-
 footer{
   background-color:#8775fd;
   height: 12vh;
@@ -76,4 +71,23 @@ footer{
 .text-fot{
   font-size: 10px;
   font-family: cursive;
+}
+
+@media (max-width: 640px){
+  .title{
+    font-size: 70px;
+  }
+
+  #logo{
+    height: 10vh;
+    width: 10vh;
+  }
+
+  .nav{
+    flex-direction: column;
+  }
+
+  .cuenta{
+    width: 30vw;
+  }
 }

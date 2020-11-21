@@ -43,3 +43,13 @@ a{
   color: black;
   font-size: 30px;
 }
+
+@media (max-width: 640px){
+  form{
+    width: 80vw;
+  }
+
+  input{
+    width: 77vw;
+  }
+}

@@ -30,3 +30,17 @@ button{
   align-items: center;
   height: 6vh;
 }
+
+@media (max-width: 640px){
+  form{
+    width: 80vw;
+  }
+
+  input{
+    width: 70vw;s
+  }
+
+  button{
+    width: 30vw;
+  }
+}
