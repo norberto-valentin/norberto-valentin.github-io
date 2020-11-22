@@ -75,7 +75,8 @@ footer{
 
 @media (max-width: 640px){
   .title{
-    font-size: 70px;
+    font-family: cursive;
+    font-size: 60px;
   }
 
   #logo{
