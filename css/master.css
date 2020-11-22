@@ -74,6 +74,9 @@ footer{
 }
 
 @media (max-width: 640px){
+  header{
+    height: 20vh;
+  }
   .title{
     font-family: cursive;
     font-size: 50px;
