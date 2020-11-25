@@ -49,6 +49,11 @@ input{
     height: 10vh;
   }
 
+  img{
+    height: 70px;
+    width: 70px;
+  }
+
   input{
     margin: 20px;
     height: 70px;
