@@ -37,7 +37,7 @@ input{
 
 @media (max-width: 640px){
   section{
-    width: 70vw;
+    width: 100vw;
   }
 
   nav{
@@ -51,5 +51,7 @@ input{
 
   input{
     margin: 20px;
+    height: 70px;
+    width: 70px;
   }
 }
